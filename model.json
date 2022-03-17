@@ -2470,20 +2470,19 @@
             ]
         },
         {
-            "collectionName": "example",
+            "collectionName": "example23",
             "type": "object",
             "properties": [
                 {
-                    "name": "col1",
+                    "name": "col13",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
                     "unique": false,
-                    "mode": "nvarchar2",
-                    "length": 20,
+                    "mode": "nclob",
                     "subtype": "string",
-                    "childType": "char",
-                    "type": "string",
+                    "childType": "lobs",
+                    "type": "binary",
                     "compositeKey": [
                         "partitionKey",
                         "compositePartitionKey",
@@ -2495,6 +2494,28 @@
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "GUID": "52b87ad0-783e-11ec-b8a9-4b89c0f3c8ef",
+                    "error": {}
+                },
+                {
+                    "name": "asd",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "properties": [],
+                    "childType": "object_udt",
+                    "type": "document",
+                    "compositeKey": [
+                        "partitionKey",
+                        "compositePartitionKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "partitionKey": false,
+                    "compositePartitionKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "7428bae0-a5b6-11ec-b756-2de056e45d44",
                     "error": {
                         "name": false,
                         "code": false
@@ -2877,7 +2898,7 @@
     ],
     "views": [
         {
-            "name": "force",
+            "name": "force23",
             "type": "object",
             "properties": [
                 {
@@ -2943,11 +2964,15 @@
                     "name": false,
                     "code": false,
                     "force": false,
-                    "or_replace": false
+                    "or_replace": false,
+                    "editionable": false,
+                    "editioning": false
                 }
             },
             "force": true,
-            "or_replace": true
+            "or_replace": true,
+            "editionable": true,
+            "editioning": true
         },
         {
             "name": "editionable",
@@ -3196,7 +3221,7 @@
         "e4ff9720-7799-11ec-a128-cb02453421e5": "org",
         "ee582b20-7799-11ec-a128-cb02453421e5": "partitioning",
         "10c81620-779a-11ec-a128-cb02453421e5": "views",
-        "1d737ea0-779a-11ec-a128-cb02453421e5": "force",
+        "1d737ea0-779a-11ec-a128-cb02453421e5": "force23",
         "3086c3d0-779a-11ec-a128-cb02453421e5": "nvarchar2",
         "30878720-779a-11ec-a128-cb02453421e5": "nchar",
         "3087d540-779a-11ec-a128-cb02453421e5": "varchar2",
@@ -3238,8 +3263,8 @@
         "01fd7620-77a5-11ec-bcf5-33477b72c2a4": "col3",
         "09b50450-77a5-11ec-bcf5-33477b72c2a4": "col3",
         "128f67a0-77a5-11ec-bcf5-33477b72c2a4": "col3",
-        "4fd1d5a0-783e-11ec-b8a9-4b89c0f3c8ef": "example",
-        "52b87ad0-783e-11ec-b8a9-4b89c0f3c8ef": "col1",
+        "4fd1d5a0-783e-11ec-b8a9-4b89c0f3c8ef": "example23",
+        "52b87ad0-783e-11ec-b8a9-4b89c0f3c8ef": "col13",
         "0f320100-7843-11ec-8597-9379383e886f": "udts",
         "12f857d0-7843-11ec-8597-9379383e886f": "udts",
         "1ab3dda0-7843-11ec-8597-9379383e886f": "obj_udt",
@@ -3250,7 +3275,8 @@
         "4e4aafb0-785a-11ec-92be-e7cb5df7a573": "clob",
         "56545580-785a-11ec-92be-e7cb5df7a573": "file",
         "5de17850-785a-11ec-92be-e7cb5df7a573": "bfile",
-        "648e9b60-785a-11ec-92be-e7cb5df7a573": "json"
+        "648e9b60-785a-11ec-92be-e7cb5df7a573": "json",
+        "7428bae0-a5b6-11ec-b756-2de056e45d44": "asd"
     },
     "definitions": {
         "type": "definitions",
@@ -3422,7 +3448,7 @@
     "creationTS": "2022-01-17T12:12:20.907Z",
     "GUID": "601bad40-9afe-11ec-9898-855c3ec5e092",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-03T14:29:46.645Z",
+    "lastModifTS": "2022-03-17T05:52:50.914Z",
     "persistenceSchemaVersion": "5",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -3431,7 +3457,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "5.4.6"
+        "version": "5.4.7"
     },
     "hackoladeMeta": {
         "validationErrors": {
@@ -3585,7 +3611,7 @@
                         "GUID": "1d737ea0-779a-11ec-a128-cb02453421e5",
                         "x": 948.8533077514296,
                         "y": 633.3566634689299,
-                        "width": 220,
+                        "width": 231,
                         "height": 99,
                         "color": {}
                     },
@@ -3681,8 +3707,8 @@
                         "GUID": "4fd1d5a0-783e-11ec-b8a9-4b89c0f3c8ef",
                         "x": 1174.727906687907,
                         "y": 763.0944958461598,
-                        "width": 204,
-                        "height": 51,
+                        "width": 184,
+                        "height": 69,
                         "color": {}
                     },
                     {
