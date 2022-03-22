@@ -3795,12 +3795,12 @@
             }
         },
         {
-            "collectionName": "TIMES",
+            "collectionName": "TIMES233",
             "type": "object",
             "properties": [
                 {
                     "code": "",
-                    "name": "TIME_ID",
+                    "name": "TIME_ID_2",
                     "isActivated": true,
                     "primaryKey": true,
                     "unique": false,
@@ -3823,7 +3823,7 @@
                 },
                 {
                     "code": "",
-                    "name": "DAY_NAME",
+                    "name": "DAY_NAME_223",
                     "isActivated": true,
                     "primaryKey": false,
                     "unique": false,
@@ -3844,7 +3844,7 @@
                 },
                 {
                     "code": "",
-                    "name": "DAY_NUMBER_IN_WEEK",
+                    "name": "DAY_NUMBER_IN_WEEK_asde",
                     "isActivated": true,
                     "primaryKey": false,
                     "unique": false,
@@ -4566,9 +4566,7 @@
             ],
             "uniqueKey": [],
             "chkConstr": [],
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "hackoladeMeta": {}
         }
     ],
     "buckets": [
@@ -5324,9 +5322,9 @@
         "5b72d280-7229-11ec-8d26-5523e05f6743": "OS_DOC_SET_KANJI",
         "5b72d282-7229-11ec-8d26-5523e05f6743": "COMMENTS",
         "5b720f35-7229-11ec-8d26-5523e05f6743": "SUPPLEMENTARY_DEMOGRAPHICS",
-        "5b72f991-7229-11ec-8d26-5523e05f6743": "TIME_ID",
-        "5b72f993-7229-11ec-8d26-5523e05f6743": "DAY_NAME",
-        "5b72f995-7229-11ec-8d26-5523e05f6743": "DAY_NUMBER_IN_WEEK",
+        "5b72f991-7229-11ec-8d26-5523e05f6743": "TIME_ID_2",
+        "5b72f993-7229-11ec-8d26-5523e05f6743": "DAY_NAME_223",
+        "5b72f995-7229-11ec-8d26-5523e05f6743": "DAY_NUMBER_IN_WEEK_asde",
         "5b72f997-7229-11ec-8d26-5523e05f6743": "DAY_NUMBER_IN_MONTH",
         "5b7320a1-7229-11ec-8d26-5523e05f6743": "CALENDAR_WEEK_NUMBER",
         "5b7320a3-7229-11ec-8d26-5523e05f6743": "FISCAL_WEEK_NUMBER",
@@ -5362,7 +5360,7 @@
         "5b745925-7229-11ec-8d26-5523e05f6743": "DAYS_IN_FIS_YEAR",
         "5b748030-7229-11ec-8d26-5523e05f6743": "END_OF_CAL_YEAR",
         "5b748032-7229-11ec-8d26-5523e05f6743": "END_OF_FIS_YEAR",
-        "5b72d289-7229-11ec-8d26-5523e05f6743": "TIMES",
+        "5b72d289-7229-11ec-8d26-5523e05f6743": "TIMES233",
         "5b63de60-7229-11ec-8d26-5523e05f6743": "COSTS_CHANNEL_FK",
         "5b63de61-7229-11ec-8d26-5523e05f6743": "COSTS_PRODUCT_FK",
         "5b63de62-7229-11ec-8d26-5523e05f6743": "COSTS_PROMO_FK",
@@ -5422,16 +5420,16 @@
     "creationTS": "2021-12-03T09:29:22.762Z",
     "GUID": "7fdc0aa0-541b-11ec-ace5-613cb95d1e5e",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-01-12T13:09:47.445Z",
+    "lastModifTS": "2022-03-22T12:55:43.218Z",
     "persistenceSchemaVersion": "5",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Oracle",
-        "pluginVersion": "0.0.4",
+        "pluginVersion": "0.1.3",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "5.3.2"
+        "version": "5.4.7"
     },
     "hackoladeMeta": {},
     "code": "",
@@ -5555,7 +5553,7 @@
                         "GUID": "5b72d289-7229-11ec-8d26-5523e05f6743",
                         "x": 390,
                         "y": 340,
-                        "width": 360,
+                        "width": 358,
                         "height": 714,
                         "color": {}
                     },
