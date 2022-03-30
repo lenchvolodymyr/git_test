@@ -2636,7 +2636,7 @@
             "properties": [
                 {
                     "code": "",
-                    "name": "PROMO_ID",
+                    "name": "PROMO_ID_29",
                     "isActivated": true,
                     "primaryKey": true,
                     "unique": false,
@@ -5280,7 +5280,7 @@
         "5b701363-7229-11ec-8d26-5523e05f6743": "PROD_EFF_TO",
         "5b701365-7229-11ec-8d26-5523e05f6743": "PROD_VALID",
         "5b6f01f7-7229-11ec-8d26-5523e05f6743": "PRODUCTS",
-        "5b706180-7229-11ec-8d26-5523e05f6743": "PROMO_ID",
+        "5b706180-7229-11ec-8d26-5523e05f6743": "PROMO_ID_29",
         "5b706182-7229-11ec-8d26-5523e05f6743": "PROMO_NAME",
         "5b708890-7229-11ec-8d26-5523e05f6743": "PROMO_SUBCATEGORY",
         "5b708892-7229-11ec-8d26-5523e05f6743": "PROMO_SUBCATEGORY_ID",
@@ -5420,8 +5420,8 @@
     "creationTS": "2021-12-03T09:29:22.762Z",
     "GUID": "7fdc0aa0-541b-11ec-ace5-613cb95d1e5e",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-22T12:55:43.218Z",
-    "persistenceSchemaVersion": "5",
+    "lastModifTS": "2022-03-30T14:27:36.388Z",
+    "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Oracle",
@@ -5429,7 +5429,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "5.4.7"
+        "version": "6.0.0"
     },
     "hackoladeMeta": {},
     "code": "",
@@ -5513,7 +5513,7 @@
                         "GUID": "5b703a75-7229-11ec-8d26-5523e05f6743",
                         "x": 1090,
                         "y": 490,
-                        "width": 350,
+                        "width": 358,
                         "height": 228,
                         "color": {}
                     },
