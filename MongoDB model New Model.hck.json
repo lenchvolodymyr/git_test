@@ -6,7 +6,7 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "New Field",
+                    "name": "New Field1222",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
@@ -35,7 +35,10 @@
                 "collation": "null"
             },
             "GUID": "f378ab40-b1a3-11ec-b101-eb631cb3ca81",
-            "bucketId": "f1f7d7a0-b1a3-11ec-b101-eb631cb3ca81"
+            "bucketId": "f1f7d7a0-b1a3-11ec-b101-eb631cb3ca81",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -43,6 +46,7 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
+                "f378ab40-b1a3-11ec-b101-eb631cb3ca81",
                 "f378ab40-b1a3-11ec-b101-eb631cb3ca81"
             ],
             "backgroundColor": {
@@ -80,6 +84,7 @@
         "properties": [],
         "GUID": "f0833902-b1a3-11ec-b101-eb631cb3ca81"
     },
+    "modelAutoSaved": false,
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
@@ -97,14 +102,17 @@
     "applicationInformation": {
         "version": "6.0.0"
     },
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true
+    },
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
                         "GUID": "f378ab40-b1a3-11ec-b101-eb631cb3ca81",
-                        "x": 470,
-                        "y": 399,
+                        "x": 562,
+                        "y": 804,
                         "width": 206,
                         "height": 51,
                         "color": {}
@@ -112,30 +120,20 @@
                 ],
                 "buckets": [
                     {
-                        "x": 414,
-                        "y": 324,
+                        "x": 522,
+                        "y": 764,
                         "GUID": "f1f7d7a0-b1a3-11ec-b101-eb631cb3ca81"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": []
+                }
             },
             "collectionLevel": {},
             "changed": false
@@ -145,7 +143,5 @@
             "shouldDistributeCollections": false
         }
     },
-    "hackoladeMeta": {
-        "customPropertiesUpdated": true
-    }
+    "modelChanged": true
 }
