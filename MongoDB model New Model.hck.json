@@ -15,6 +15,28 @@
                         "name": false,
                         "code": false
                     }
+                },
+                {
+                    "name": "a",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "ceced5f0-f206-11ec-9cc7-9347bf21fcdb",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "b",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "d20c74c0-f206-11ec-9cc7-9347bf21fcdb",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
                 }
             ],
             "definitions": {
@@ -67,7 +89,9 @@
     "idToNameHashTable": {
         "f1f7d7a0-b1a3-11ec-b101-eb631cb3ca81": "New_Database",
         "f378ab40-b1a3-11ec-b101-eb631cb3ca81": "New Collection",
-        "f44019f0-b1a3-11ec-b101-eb631cb3ca81": "New 23Field12232"
+        "f44019f0-b1a3-11ec-b101-eb631cb3ca81": "New 23Field12232",
+        "ceced5f0-f206-11ec-9cc7-9347bf21fcdb": "a",
+        "d20c74c0-f206-11ec-9cc7-9347bf21fcdb": "b"
     },
     "definitions": {
         "type": "definitions",
@@ -92,7 +116,7 @@
     "creationTS": "2022-04-01T10:10:21.455Z",
     "GUID": "f0833900-b1a3-11ec-b101-eb631cb3ca81",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-17T13:25:37.014Z",
+    "lastModifTS": "2022-06-22T08:39:33.429Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -112,8 +136,8 @@
                         "GUID": "f378ab40-b1a3-11ec-b101-eb631cb3ca81",
                         "x": 562,
                         "y": 804,
-                        "width": 221,
-                        "height": 51,
+                        "width": 233,
+                        "height": 87,
                         "color": {}
                     }
                 ],
