@@ -1,12 +1,12 @@
 {
-    "modelName": "model11asdasd2",
+    "modelName": "model1053asdad2123",
     "collections": [
         {
-            "collectionName": "string",
+            "collectionName": "string1",
             "type": "object",
             "properties": [
                 {
-                    "name": "nvarchar23",
+                    "name": "nvarchar2",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
